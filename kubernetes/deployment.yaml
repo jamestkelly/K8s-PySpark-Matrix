@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pyspark-matrix-services
+spec:
+  selector:
+    app: pyspark-matrix
+  ports:
+  - protocol: "TCP"
+    port: 6000
+    targetPort: 5000
+  type: LoadBalancer
+
+
+---
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: pyspark-matrix
+spec:
+  replicas: 4
+  template:
+    metadata:
+      labels:
+        app: pyspark-matrix
+    spec:
+      containers:
+      - name: pyspark-matrix
+        image: pyspark-matrix:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5000
