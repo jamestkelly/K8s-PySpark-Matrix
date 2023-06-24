@@ -1,0 +1,21 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pyspark-matrix
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: pyspark-matrix
+  template:
+    metadata:
+      labels:
+        app: pyspark-matrix
+    spec:
+      containers:
+        - name: pyspark-matrix
+          image: pyspark-matrix:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 5000
