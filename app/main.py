@@ -1,17 +1,8 @@
 from flask import Flask
+from pkg.routes.route import bp
 
 app = Flask(__name__)
-
-
-@app.route('/')
-def hello():
-    """Basic health-check function at root of route to validate API is live.
-
-    Returns:
-        str: A string containing a hello message.
-    """
-    return "Hello from K8s PySpark Matrix!"
-
+app.register_blueprint(bp)
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')

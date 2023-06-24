@@ -114,8 +114,6 @@ This is an example of how to list things you need to use the software and how to
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -125,21 +123,23 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [X] Initial build of standard Python Flask RESTful API
+- [X] Dockerisation of application
+- [X] Kubernetes integration
+- [ ] PySpark integration
+    - [ ] Matrix multiplication
+    - [ ] Fast Fourier Transform (FFT)
+- [ ] Finalisation of documentation
+  - [ ] Thorough commenting of code where needed
+  - [ ] Completion of `README.md` with usage and installation information
+- [ ] API server public hosting on a cloud platform, e.g., AWS.
 
 See the [open issues](https://github.com/jamestkelly/K8s-PySpark-Matrix/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -177,6 +177,7 @@ Project Link: [https://github.com/jamestkelly/K8s-PySpark-Matrix](https://github
 ## Acknowledgments
 
 * [Get started with Kubernetes (using Python)](https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/)
+* [Deploy on Kubernetes | Docker Documentation](https://docs.docker.com/desktop/kubernetes/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
