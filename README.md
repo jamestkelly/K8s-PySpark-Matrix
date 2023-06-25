@@ -178,6 +178,7 @@ Project Link: [https://github.com/jamestkelly/K8s-PySpark-Matrix](https://github
 
 * [Get started with Kubernetes (using Python)](https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/)
 * [Deploy on Kubernetes | Docker Documentation](https://docs.docker.com/desktop/kubernetes/)
+* [Functional Apache Spark Cluster Using Kubernetes and Docker | Kubernetes Documentation](https://github.com/kubernetes/examples/blob/master/staging/spark/README.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
