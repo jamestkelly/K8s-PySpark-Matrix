@@ -85,18 +85,18 @@ The application's core functionality is relatively simple, predominantly that of
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+TO DO:
+    - Add general notes on getting started, e.g., assumptions, other notes, etc.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+TODO:
+    - Add documentation on installing required packages.
 
 ### Installation
+
+TODO:
+    - Add notes on installing the application
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -117,7 +117,8 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+TODO:
+    - Add documentation of examples, ways to use this service etc.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -127,15 +128,15 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - [X] Initial build of standard Python Flask RESTful API
-- [X] Dockerisation of application
+- [X] Containerisation of the application, e.g., Docker integration
 - [X] Kubernetes integration
 - [ ] PySpark integration
     - [ ] Matrix multiplication
     - [ ] Fast Fourier Transform (FFT)
+- [ ] Ansible pipeline integration to streamline cluster creation and deployment
 - [ ] Finalisation of documentation
   - [ ] Thorough commenting of code where needed
   - [ ] Completion of `README.md` with usage and installation information
-- [ ] API server public hosting on a cloud platform, e.g., AWS.
 
 See the [open issues](https://github.com/jamestkelly/K8s-PySpark-Matrix/issues) for a full list of proposed features (and known issues).
 
